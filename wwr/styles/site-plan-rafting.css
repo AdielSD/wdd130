@@ -1,0 +1,92 @@
+/* Google Fonts */
+
+@import url(https://fonts.google.com/specimen/Anton);
+@import url(https://fonts.google.com/specimen/Abel);
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+
+}
+
+:root {
+    --primary-color: #386641;
+    --secondary-color: #a7c957;
+    --accent1-color: #f2e8cf;
+    --accent2-color: #bc4749;
+
+    --heading-font: '_____'serif;
+    --paragraph-font: '____'serif;
+
+
+    --nav-background-color: #386641;
+    --nav-link-color:#a7c957 ;
+    --nav-hover-link-color: #f2e8cf;
+    --nav-hover-background-color: #6a994e; 
+
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }  
+
+
+
+
+:root {
+    --heading-font:'Anton', sans-serif;
+    --heading-color: #386641;
+
+}
+
+/* Grouping selector for all headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--heading-color); /* Use your chosen color here */
+  }
+
+
+
+
+header {
+
+    padding: 20px;
+    background-color: var(--accent1-color);
+
+}
+
+
+
+p {
+    padding: 25px;
+
+}
+
+
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}   
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+  color: var(--nav-hover-link-color);
+
+}
+
+nav a:hover {
+color: var(--nav-hover-link-color);
+background-color: var(--nav-hover-background-color);
+}
+
