@@ -97,3 +97,11 @@ background-color: var(--nav-hover-background-color);
     font-weight: 400;
     font-style: normal;
   }
+
+/* Second Font Code*/
+
+.abel-regular {
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
