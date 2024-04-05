@@ -1,8 +1,7 @@
- 
- *{
+*{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box
  }
  
 
@@ -13,63 +12,75 @@
 
 nav {
   background-color: steelblue;
-  padding: 10px;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
 }
 
 nav a {
   color: white;
   display: block;
-  padding: 20px;
+  padding: 0.5rem;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #fff;
 }
-
 h1 { 
   color: steelblue;
+  border-bottom-style: ridge;
+  border-bottom-width: 1px;
+  border-color: steelblue;
+  padding: 5px;
+}
+
+
+main p {
+  padding: 0;
 
 }
 
 main img {
   width: 150px;
-  height:auto;
+  float: right;
+  height: fit-content;
   border: 1px solid steelblue;
   padding: 2px;
   box-shadow: 0 0 30px gray;
-  float: right;
   margin: 0 0 1rem 1rem;
+  margin-right: 15px;
 }
 
-p {
-  padding: 0;
-}
+
 
 p,
-li {
+li {  
   font-size: 16px;
   line-height: 2;
   letter-spacing: 1px;
 }
 
-main { 
-  max-width: 840px;
+
+aside {
+  display: block;
 }
 
-aside{ 
-  width: 20 em;
-  text-align: center;
-  width: min-content;
-}
+
 
 aside img {
-  width: 200px;
+  width: 170px;
   border: 1px solid steelblue;
   padding: 2px;
   box-shadow: 0 0 30px gray;
   height: auto;
 }
 
-main img {
-  float: right;
+main img {  
   position: relative;
   text-align: center;
+
 }
 
 footer {
@@ -81,9 +92,8 @@ footer {
 
 
 
-
  
- /* class selectors */ 
+/* class selectors*/
  .box {
   margin: 1rem;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -98,8 +108,9 @@ footer {
     left: 90px;
     
   }
+ 
+  /*code  for font */
 
-  /* Font code CSS*/
 
 .signika-negative-uniquifier {
   font-family: "Signika Negative", sans-serif;
@@ -108,3 +119,40 @@ footer {
   font-style: normal;
 }
 
+
+
+header, .grid, footer {
+  max-width: 840px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  align-items: center;
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+  grid-column: 2/3;
+  margin: 1rem;
+}
+
+
+
+aside{ 
+  width: 20em;
+  position: relative;
+  text-align: center;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.text-box {
+  padding-top: 10px;
+}
+
+.text-box h1 {
+  font-size: 42px;
+}
