@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+header h1 {
+    text-align: center;
+    display: block;
+    color: navy;
+
+}
+
+form {
+    width: 60%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    color: #333;
+    background: #fff;
+
+}
+
+body {
+    width: 100%;
+    padding-top: 4rem;
+    padding-bottom: 10%;
+}
+
+header {
+    margin: auto;
+    width: 650px;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(119, 119, 119, 0.7);
+    padding: 1rem;
+}
+
+
+legend {
+    padding: 0.5rem;
+    color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+label, input, button, select, textarea {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label, input, button, select, textarea {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+ button:hover {
+    background-color: rgb(45, 1, 58);
+ }
+
+ footer {
+    margin: 1rem auto;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #777;
+    border-top: 1px solid #ccc;
+ }
+
+ .form-item {
+    display: grid;
+    align-items: center;
+}
+
+input {
+
+    height: 40px;
+    padding-left: 10px;
+}
+
+select {
+    padding: 1rem;
+    font-size: 16px;
+    
+}
+textarea {
+    height: 120px;
+    padding: 1rem;
+    font-size: 16px;
+}
+
+.radio {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.radio {
+    transform: scale(1);
+    margin-left: 5px;
+    
+} 
+
