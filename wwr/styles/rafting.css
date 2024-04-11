@@ -146,7 +146,8 @@ body {
 
 
 header {
-display: flex;
+display: grid;
+grid-template-columns: 1fr 3fr;
 justify-content: space-between;
 align-items: center;
 padding: 30px 10%;
@@ -155,7 +156,7 @@ background-color: #386641;
 
 
 nav {
-  display: flex;
+  text-align: right;
   justify-content: space-between;
   padding-right: 20px;
 }
@@ -541,7 +542,7 @@ input, textarea {
 }
 
 header {
-  height: 120px;
+  height: 150px;
 }
 
 .choice {
@@ -571,6 +572,7 @@ header {
   align-items: center;
   justify-content: center ;
 }
+
 
 
 
